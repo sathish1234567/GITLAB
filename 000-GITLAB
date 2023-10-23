@@ -15,4 +15,41 @@ Step-2: if it is git installed/ need to check if it is done or not using the git
 -- output: getting the versio of the git.
 --  2.23.0.windows.1.
 
+Step-3: Run following git commands.
+-- earlier seeeion we have already created the project/folder in gitlab
+-- in cmd:
+   git config --global user.name "satish" <-- in my system git has stored with this username/ because it wil not ask when you are doing commit and push.
+   git config --global user.name <-- get the stored/configured the user name.
+       -- output: sathish
+   git config --global user.email "123456.....@gmail.com"
+   git config --global user.email
+       -- output:123456.....@gmail.com
+   git config --global --list --> it will show the username and email and password / all your settings.
+       --output:
+       user name: satish
+       email: 123456.....@gmail.com
+
+Step-4: 
+-- create a demo project/folder and then we will add to git.
+-- create a folder in your local system.- folder name gitlab
+   c:/satish/projects/gitlab
+   inside gitlab again create the folder - "MyFirstProject"
+   c:
+   |_satish
+       |_projects
+           |_gitlab
+              |_MyFirstProject
+
+Step-5:
+-- Goto CMD or Treminal(Mac)/gitbash
+-- CD to the location of the folder and run following commands.
+-- CD(change directory above path: c:/satish/projects/gitlab/MyFirstProject --> press enter it will redirect to this path.
+-- or 
+ -- if you are in the same path in the adddress bar/ edit the address bar write the cmd --> press enter
+    output: it is directly open the same path/same location in the cmd line.
+    c:/satish/projects/gitlab/MyFirstProject
+
+Step-5 
+
+
 
