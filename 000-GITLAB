@@ -1,0 +1,18 @@
+Today we will learn:
+1. Download and install git
+2. add a project / folder to git
+3. commit and push project to gitlab.
+
+Step-1: Download and Install the git on your system.
+-- search for https://git-scm.com
+-- Find the options to git download: download the git for windows.
+-- download and install the gitlab.
+-- it is installing the gitlab and git-bash.
+
+Step-2: if it is git installed/ need to check if it is done or not using the git --version.
+-- go to run-cmd/open the git-bash
+-- c:/sathishb/git --version --> press enter
+-- output: getting the versio of the git.
+--  2.23.0.windows.1.
+
+
