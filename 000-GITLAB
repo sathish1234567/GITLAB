@@ -50,6 +50,49 @@ Step-5:
     c:/satish/projects/gitlab/MyFirstProject
 
 Step-5 
+Now set this path in CMD
+  c:/satish/projects/gitlab/MyFirstProject
+-- Git init: initiliaze the empty repository in   c:/satish/projects/gitlab/MyFirstProject.
+   - if you go inside the myfirstproject folder, .git file created.(.git hidden file )- not see this --> view->enbled hidden items
+-- once you are initiliaze the git for your project, next command you wil use it: git status.
+-- git status
+   no commits yet
+   no files in the project/we don't have any changes to the commit.
+-- so we have to create the file inside :
+   c:/satish/projects/gitlab/MyFirstProject
+   c:
+   |_satish
+       |_projects
+           |_gitlab
+              |_MyFirstProject
+                  |_Readme.txt--> new added
+-- now check the git status.
+   git status
+      output: untracked files- ReadMe.txt
+-- git add ReadMe.txt(single) or // sngle change add to git
+   git add . (multiple files)    // multiple changes add to git.
+   file/files added to git and it is ready to be commit.
+
+   git status
+      changes to be commited
+      new file ReadMe.txt
+
+--  we have to commit our changes for that use below command
+    git commit -m "message"
+    now commit is done . 
+    but if you go to your git lab directory " ReadMe.txt" file not be added becuase we have not push the file.
+    once commit will complete, we have to push the file/ not edit the file in our repository.
+
+-- git push -u origin master
+   or 
+   git push -u "url/clone path" master
+
+   now it will ask username / password for one time.
+   now all the changes 100% done
+
+   now if you will go and check it in git repository- "ReadMe.txt" file added to repository.
+      
+
 
 
 
