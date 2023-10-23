@@ -2,3 +2,36 @@ Today we will learn:
 1. What is git lab?
 2. create account on gitlab
 3. Create a new project on gitlab
+
+Difference between Git and Gitlab:
+___________________________________
+
+1. Git: 
+-- version control system.
+-- to locally tract changes in your project/folder: means once your folder/project to the git, it will tract the changes 
+and push and pull changes from the repositiories like github/BitBucket/GitLab.
+
+2. GitLab/BitBucket/GitHub:
+-- are Services that allow to host your project on a remote repository and have additional features to help in SDLC and CI/CD.
+Ex:
+Manging
+Sharing
+Wiki
+BugTracking
+CI and CD
+
+Signup GitLab Account:
+______________________
+1. create an account in gitLab(https://gitlab.com)
+  click on register button: 
+  provide- First name/username/email/email confirmation/password --> click on register--> you will receive the confirmation email
+  confirm with that.
+2. sign in to the https://gitlab.com
+3. once logged into the gitlab--> create the project.
+   click on projects -->/(+)-- select the New Project
+   next screen provide the project name:My First Project --> click on "Create Project" Button
+   Message: "project created successful"
+   clone the project with "https"
+   url:https://gitlab.com/<username>/my-first-project.git --> for cloning --> url we can use it, when it is required for pul/push
+
+
