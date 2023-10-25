@@ -31,3 +31,7 @@ Git init: _______
 2.  it can be used to convert an existing /unversioned project to a git repository.
 3.  this is the first command, you will run in a new project.
 4.  used for initialize the repository.
+5.  if you will use it in existing repository, it will reinitializing the repository to exist directory.
+
+git clone: ------------
+1.  which is used to target an existing repository.
