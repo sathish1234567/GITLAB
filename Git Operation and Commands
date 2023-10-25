@@ -1,3 +1,4 @@
+youtube.com/watch?v=akD-DpolilE
 Setup repo:
 __________
 1. GIT INIT 
@@ -34,4 +35,13 @@ Git init: _______
 5.  if you will use it in existing repository, it will reinitializing the repository to exist directory.
 
 git clone: ------------
-1.  which is used to target an existing repository.
+1.  which is used to target an existing repository and create a clone or copy of the target repository on your local meachine
+git clone <repo> <directory>
+2. copy the repository from git lab, use below command
+open your directory in command line c:/>edureka
+c:/> git clone "https://...edurekatestgit/edurekarep.git"  --> press enter 
+now git has been clones to the local direcotry.
+3. now change the direcory to edurekarep
+ cd edurekarep/
+ ls --> disply the files in current directory.
+
