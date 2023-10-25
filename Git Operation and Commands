@@ -1,0 +1,33 @@
+Setup repo:
+__________
+1. GIT INIT 
+2. GIT CLONE
+3. GIT CONFIG
+4. GIT ALIAS
+
+
+Save changes:
+_____________
+1. GIT ADD
+2. GIT COMMIT
+3. GIT DIFF
+4. GIT STASH
+
+Inspect Repo:
+_____________
+1. GIT status
+2. git log
+3. git tag
+4. git blame.
+
+Paraller development:
+_____________________
+1. Git Branch
+2. GIt Merge
+3. GIT REBASE
+
+Git init: _______
+1.  basically careates a new and empty git repository .
+2.  it can be used to convert an existing /unversioned project to a git repository.
+3.  this is the first command, you will run in a new project.
+4.  used for initialize the repository.
